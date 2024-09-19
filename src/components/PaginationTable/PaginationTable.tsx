@@ -135,7 +135,7 @@ const PaginationTable = () => {
   const [lessons, setLessons] = useState(initialLessons)
 
  
-  const handlePageChange = ( newPage: number) => {
+  const handlePageChange = (event,  newPage: number) => {
     setPage(newPage)
   }
 
